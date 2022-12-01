@@ -63,4 +63,4 @@ module sophialiCMU_math (
       nextState = (en) ? GO : IDLE;
   end
 
-endmodule: Math
+endmodule: sophialiCMU_math
