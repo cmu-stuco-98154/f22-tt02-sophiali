@@ -11,8 +11,8 @@
 // 2 7-segment displays
 
 module sophialiCMU_math (
-  input logic io_in,
-  output logic io_out  
+  input logic [7:0] io_in,
+  output logic [7:0] io_out  
 );
   
   logic clock, reset, en;
