@@ -24,7 +24,7 @@ module sophialiCMU_math (
     reset = io_in[1];
     en = io_in[2];
     in = io_in[3:5];
-    arithOp = io_n[6:7];
+    arithOp = io_in[6:7];
   end
 
   logic enable;
